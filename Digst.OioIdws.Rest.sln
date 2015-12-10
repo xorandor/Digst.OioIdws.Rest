@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digst.OioIdws.Rest.AuthorizationService", "Digst.OioIdws.Rest.AuthorizationService\Digst.OioIdws.Rest.AuthorizationService.csproj", "{D97CEB63-1139-4DC3-B630-67E823376326}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digst.OioIdws.Rest.AuthorizationService", "Source\Digst.OioIdws.Rest.AuthorizationService\Digst.OioIdws.Rest.AuthorizationService.csproj", "{D97CEB63-1139-4DC3-B630-67E823376326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digst.OioIdws.Rest.AuthorizationService.Tests", "Digst.OioIdws.Rest.AuthorizationService.Tests\Digst.OioIdws.Rest.AuthorizationService.Tests.csproj", "{43C0B539-7E33-48AB-AE35-98B3D1834782}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digst.OioIdws.Rest.AuthorizationService.Tests", "Test\Digst.OioIdws.Rest.AuthorizationService.Tests\Digst.OioIdws.Rest.AuthorizationService.Tests.csproj", "{43C0B539-7E33-48AB-AE35-98B3D1834782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digst.OioIdws.Rest.Common", "Digst.OioIdws.Rest.Common\Digst.OioIdws.Rest.Common.csproj", "{B367BF97-79F3-4BBA-8A2F-9A21FFDF9950}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digst.OioIdws.Rest.Common", "Source\Digst.OioIdws.Rest.Common\Digst.OioIdws.Rest.Common.csproj", "{B367BF97-79F3-4BBA-8A2F-9A21FFDF9950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C05201AB-66D4-4DA9-BA88-393A12F10B2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0A4717BF-7F5D-410F-983F-1B5BD225E2F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B5D562B9-3766-41FD-A654-14AC71E41160}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +36,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D97CEB63-1139-4DC3-B630-67E823376326} = {C05201AB-66D4-4DA9-BA88-393A12F10B2E}
+		{43C0B539-7E33-48AB-AE35-98B3D1834782} = {0A4717BF-7F5D-410F-983F-1B5BD225E2F1}
+		{B367BF97-79F3-4BBA-8A2F-9A21FFDF9950} = {C05201AB-66D4-4DA9-BA88-393A12F10B2E}
 	EndGlobalSection
 EndGlobal

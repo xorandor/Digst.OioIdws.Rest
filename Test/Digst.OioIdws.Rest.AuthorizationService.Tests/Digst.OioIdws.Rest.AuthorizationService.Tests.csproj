@@ -84,11 +84,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Digst.OioIdws.Rest.AuthorizationService\Digst.OioIdws.Rest.AuthorizationService.csproj">
+    <ProjectReference Include="..\..\Source\Digst.OioIdws.Rest.AuthorizationService\Digst.OioIdws.Rest.AuthorizationService.csproj">
       <Project>{d97ceb63-1139-4dc3-b630-67e823376326}</Project>
       <Name>Digst.OioIdws.Rest.AuthorizationService</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Digst.OioIdws.Rest.Common\Digst.OioIdws.Rest.Common.csproj">
+    <ProjectReference Include="..\..\Source\Digst.OioIdws.Rest.Common\Digst.OioIdws.Rest.Common.csproj">
       <Project>{b367bf97-79f3-4bba-8a2f-9a21ffdf9950}</Project>
       <Name>Digst.OioIdws.Rest.Common</Name>
     </ProjectReference>
